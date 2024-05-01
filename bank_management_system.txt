@@ -1,0 +1,7 @@
+create database bank_management_system
+use bank_management_system;
+create table staff_information(Name varchar(50),Aadhar bigint, Contact bigint,Address varchar(100),Email varchar(40),Designation varchar(40),salary int);
+create table account_opening(name varchar(50),pan varchar(15),dob varchar(20),username varchar(20),password varchar(20),amount int);
+create table Credit_Card_Form(name varchar(50),pan varchar(15),dob varchar(20),duration int, amount int);
+create table Enquiry_Form(name varchar(50),pan varchar(15),dob varchar(20),duration int, amount int);
+create table Loan_Form(name varchar(50),pan varchar(15),dob varchar(20),duration int, amount int);
